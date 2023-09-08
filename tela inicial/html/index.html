@@ -1,30 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Videplast</title>
-    <link rel="stylesheet" href="../css/index.css">
-</head>
+    <link rel="stylesheet" href="../css/index.css" />
+    
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="nav-bar">
-            <div class="logo">
-                <img src="../../img/Untitled.jpg" alt="">
-            </div>
+      <div class="nav-bar">
+        <div class="logo">
+          <img src="../../img/Untitled.jpg" alt="" />
         </div>
+      </div>
     </header>
 
-    
-        <div class="menu">
-            <div class="botao">
-            <button class="cadastro">Cadastro</button>
-            <button class="relatorio">Relatorio</button>
-        </div>
-        </div>
-    
-</body>
+    <div class="menu">
+      <div class="button">
+        <button class="btn" onclick="cadastro()">Cadastro</button>
+        <button class="btn" onclick="relatorio()">Relatorio</button>
+      </div>
+    </div>
 
+    <section> 
+      <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Registro</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome" class="labelInput">Veiculo:</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="labelInput">Placa:</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                    <label for="telefone" class="labelInput">Km de saida:</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                    <label for="cidade" class="labelInput">Km de retorno:</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="estado" id="estado" class="inputUser" required>
+                    <label for="estado" class="labelInput">Motorista:</label>
+                </div>
+                <br><br>
+               
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+    </section>
+    <script src="../js/indexx.js"></script>
+    
+  </body>
 </html>

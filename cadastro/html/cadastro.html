@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videplast</title>
+    <link rel="stylesheet" href="../css/cadastro.css">
+   
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+          <div class="logo">
+            <img src="../../img/Untitled.jpg" alt="" />
+          </div>
+          <button class="voltar" onclick="voltar()"><-Voltar</button>
+        </div>
+      </header>
+
+      <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Cadastro de veiculo</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome" class="labelInput">Placa:</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="labelInput">Modelo:</label>
+                </div>
+                <br><br>
+                
+                <p>Veiculo:</p>
+
+                <input type="radio" id="carro" name="genero" value="carro" required>
+                <label for="carro">Carro</label>
+                
+                <input type="radio" id="caminhao" name="genero" value="caminhao" required>
+                <label for="caminhao">Caminhão</label>
+                <br>
+                
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+
+    <script src="../js/cadastro.js"></script>
+</body>
+</html>

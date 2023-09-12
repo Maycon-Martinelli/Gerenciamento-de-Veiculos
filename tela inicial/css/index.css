@@ -27,7 +27,7 @@ header {
 
 .logo img {
     width: 100%;
-    margin-left: 200%;
+    margin-left: 180%;
     transform: translate(-2rem, 0rem);
 }
 
@@ -55,7 +55,7 @@ button {
 }
 
 .btn {
-    transform: translate(32rem, 0rem);
+    transform: translate(29rem, 0rem);
 }
 
 .btn {
@@ -139,8 +139,8 @@ legend {
 
 #submit {
     background-color: #34495e;
-    width: 90%; /* Ajuste a largura para telas menores */
-    max-width: 200px; /* Defina uma largura máxima */
+    width: 100%; /* Ajuste a largura para telas menores */
+    max-width: 500px; /* Defina uma largura máxima */
     margin: 20px auto; /* Centralize horizontalmente */
     border: none;
     padding: 15px;

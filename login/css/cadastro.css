@@ -30,20 +30,21 @@ header {
     margin-left: 180%;
     transform: translate(-2rem, 0rem);
 }
+/*Fim topo */
 
-/*card de login*/
-  .container {
+.container {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 90px;
+    margin-top: 100px;
   }
   
   .card {
     background-color: #00000080;
     padding: 30px;
     border-radius: 4%;
-    box-shadow: 3px 3px 1px 0px #00000060
+    box-shadow: 3px 3px 1px 0px #00000060;
+    width: 400px;
   }
   
   h1{
@@ -119,38 +120,15 @@ header {
     justify-content: center;
   }
   
-  hr{
-    margin-top: 10%;
-    margin-bottom: 10%;
-    width: 60%;
-  }
-  
-  p{
-    color: #ffffff;
-    font-size: 14pt;
-    text-align: center;
-  }
-  
-  a{
-    color: #7a3077;
-    font-weight: bold;
-    text-decoration: none;
-    transition: all .3s ease-out;
-  }
-  
-  a:hover{
-    color: #ffffff;
-  }
-  
   .fa-eye{
     position: absolute;
     top: 15px;
     right: 10px;
     cursor: pointer;
-    color: #272262;
+    color: #0d009c;
   }
   
-   #msgError{
+  #msgError{
     text-align: center;
     color: #ff0000;
     background-color: #ffbbbb;
@@ -158,5 +136,13 @@ header {
     border-radius: 4px;
     display: none;
   }
-
-  /*Fim card de login*/
+  
+  #msgSuccess{
+    text-align: center;
+    color: #00bb00;
+    background-color: #bbffbe;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+  }
+  

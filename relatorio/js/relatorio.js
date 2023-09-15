@@ -1,3 +1,3 @@
 function voltar(){
-    window.location.href = "../../tela inicial/html/index.html"
+    window.location.href = "../../index.html"
 }

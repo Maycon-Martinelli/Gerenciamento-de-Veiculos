@@ -13,9 +13,9 @@ if (localStorage.getItem("token") == null) {
     window.location.href = "../../login/html/login.html";
   }
 function cadastro(){
-    window.location.href = "../../cadastro/html/cadastro.html"
+    window.location.href = "cadastro/html/cadastro.html"
 }
 
 function relatorio(){
-    window.location.href = "../../relatorio/html/relatorio.html"
+    window.location.href = "relatorio/html/relatorio.html"
 }

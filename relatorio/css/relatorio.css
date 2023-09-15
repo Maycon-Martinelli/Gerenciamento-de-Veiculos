@@ -47,3 +47,30 @@ header {
 .voltar:hover{
     background-color: rgb(0, 80, 172);
 }
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-bar {
+        padding: 1.5rem 2rem; /* Reduza o espaçamento horizontal */
+    }
+
+    .logo img {
+        margin-left: -30px; /* Reduza o deslocamento */
+        transform: translate(0, 0);
+    }
+
+    .voltar {
+        width: 50%; /* Ajuste a largura para telas pequenas */
+        margin: 10px auto; /* Centralize horizontalmente e adicione margem superior */
+        
+    }
+
+    h1 {
+        font-size: 40px; /* Reduza o tamanho da fonte para telas pequenas */
+    }
+}

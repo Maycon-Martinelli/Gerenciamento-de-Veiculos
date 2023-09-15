@@ -160,3 +160,19 @@ header {
   }
 
   /*Fim card de login*/
+  @media (max-width: 768px) {
+  .nav-bar {
+    padding: 1.5rem 0.5rem; /* Espaçamento menor em telas pequenas */
+}
+
+.container {
+    margin-top: 10px; /* Reduzir a margem superior em telas pequenas */
+}
+
+.card {
+    max-width: 95%; /* Reduzir ainda mais a largura do cartão em telas pequenas */
+}
+.logo img{
+    margin-left: 3rem;
+}
+  }

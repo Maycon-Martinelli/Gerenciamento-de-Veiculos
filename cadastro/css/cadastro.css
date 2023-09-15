@@ -103,7 +103,7 @@ legend {
 
 #submit {
     background-color: #34495e;
-    width: 80%; /* Adjust width for smaller screens */
+    width: 100%; /* Adjust width for smaller screens */
     margin-right: 1rem; /* Adjust margin for smaller screens */
     margin-top: 20px; /* Adjust margin for smaller screens */
     border: none;
@@ -150,7 +150,7 @@ p {
     }
     
     #submit {
-        width: 90%; /* Adjust width for smaller screens */
+        width: 100%; /* Adjust width for smaller screens */
         font-size: 10px; /* Adjust font size for smaller screens */
     }
     
